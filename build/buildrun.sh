@@ -1,0 +1,2 @@
+ninja
+./example.exe
