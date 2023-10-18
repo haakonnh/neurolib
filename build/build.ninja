@@ -89,7 +89,7 @@ build CMakeFiles/example.dir/main.cpp.obj: CXX_COMPILER__example_unscanned_ C$:/
 # Link the executable example.exe
 
 build example.exe: CXX_EXECUTABLE_LINKER__example_ CMakeFiles/example.dir/main.cpp.obj | libneurolib.a || libneurolib.a
-  LINK_LIBRARIES = libneurolib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = libneurolib.a  -static-libgcc  -static-libstdc++  -static  -lmingw32  -lmingwex  -lkernel32  -pthread  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\example.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

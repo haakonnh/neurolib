@@ -9,14 +9,10 @@ set(SOURCE_FILES
 
 add_library(neurolib STATIC ${SOURCE_FILES})
 
-target_include_directories(neurolib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src) 
+target_include_directories(neurolib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 add_executable(example main.cpp)
 
-target_compile_options(neurolib PRIVATE -stdlib=libc++)
 
-target_compile_options(example PRIVATE -stdlib=libc++)
-
-target_link_libraries(example PRIVATE -static)
-
-target_link_libraries(example PRIVATE neurolib)
+# Link against the necessary libraries
+target_link_libraries(example PRIVATE neurolib -static-libgcc -static-libstdc++ -static -lmingw32 -lmingwex -lkernel32 -pthread)

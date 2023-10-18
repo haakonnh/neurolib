@@ -1,5 +1,5 @@
 #define NEUROLIB_IMPLEMENTATION
-#include "neurolib.hpp"
+#include "./src/neurolib.hpp"
 
 int main(int argc, char** argv)
 {   

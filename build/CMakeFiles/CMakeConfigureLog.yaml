@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-is7o92"
-      binary: "C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-is7o92"
+      source: "C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-l3brc2"
+      binary: "C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-l3brc2"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/mingw64/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -72,16 +72,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-is7o92'
+        Change Dir: 'C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-l3brc2'
         
-        Run Build Command(s): C:/PROGRA~1/Meson/ninja.EXE -v cmTC_db967
-        [1/2] C:\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_db967.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): C:/PROGRA~1/Meson/ninja.EXE -v cmTC_b68ea
+        [1/2] C:\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_b68ea.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
         (built by Brecht Sanders) clang version 14.0.4
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/mingw64/bin
          (in-process)
-         "C:/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-is7o92 -resource-dir C:/mingw64/lib/clang/14.0.4 -dependency-file "CMakeFiles\\\\cmTC_db967.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/mingw64/lib/clang/14.0.4/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/mingw64/include -fdebug-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-is7o92 -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+         "C:/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-l3brc2 -resource-dir C:/mingw64/lib/clang/14.0.4 -dependency-file "CMakeFiles\\\\cmTC_b68ea.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/mingw64/lib/clang/14.0.4/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/mingw64/include -fdebug-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-l3brc2 -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
         clang -cc1 version 14.0.4 based upon LLVM 14.0.4 default target x86_64-w64-mingw32
         ignoring nonexistent directory "C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/include"
         #include "..." search starts here:
@@ -90,12 +90,12 @@ events:
          C:/mingw64/x86_64-w64-mingw32/include
          C:/mingw64/include
         End of search list.
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\mingw64\\bin\\clang.exe  -v CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj -o cmTC_db967.exe -Wl,--out-implib,libcmTC_db967.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\mingw64\\bin\\clang.exe  -v CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj -o cmTC_b68ea.exe -Wl,--out-implib,libcmTC_b68ea.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         (built by Brecht Sanders) clang version 14.0.4
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/mingw64/bin
-         "C:/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_db967.exe C:/mingw64/x86_64-w64-mingw32/lib/crt2.o C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -LC:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0 -LC:/mingw64/x86_64-w64-mingw32/lib -LC:/mingw64/lib -LC:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_db967.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o\x0d
+         "C:/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_b68ea.exe C:/mingw64/x86_64-w64-mingw32/lib/crt2.o C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -LC:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0 -LC:/mingw64/x86_64-w64-mingw32/lib -LC:/mingw64/lib -LC:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_b68ea.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o\x0d
         
       exitCode: 0
   -
@@ -127,16 +127,16 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.lld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-is7o92']
+        ignore line: [Change Dir: 'C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-l3brc2']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/PROGRA~1/Meson/ninja.EXE -v cmTC_db967]
-        ignore line: [[1/2] C:\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_db967.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): C:/PROGRA~1/Meson/ninja.EXE -v cmTC_b68ea]
+        ignore line: [[1/2] C:\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_b68ea.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"]
         ignore line: [(built by Brecht Sanders) clang version 14.0.4]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/mingw64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-is7o92 -resource-dir C:/mingw64/lib/clang/14.0.4 -dependency-file "CMakeFiles\\\\cmTC_db967.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/mingw64/lib/clang/14.0.4/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/mingw64/include -fdebug-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-is7o92 -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"]
+        ignore line: [ "C:/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-l3brc2 -resource-dir C:/mingw64/lib/clang/14.0.4 -dependency-file "CMakeFiles\\\\cmTC_b68ea.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/mingw64/lib/clang/14.0.4/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/mingw64/include -fdebug-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-l3brc2 -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"]
         ignore line: [clang -cc1 version 14.0.4 based upon LLVM 14.0.4 default target x86_64-w64-mingw32]
         ignore line: [ignoring nonexistent directory "C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/include"]
         ignore line: [#include "..." search starts here:]
@@ -145,27 +145,27 @@ events:
         ignore line: [ C:/mingw64/x86_64-w64-mingw32/include]
         ignore line: [ C:/mingw64/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\mingw64\\bin\\clang.exe  -v CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj -o cmTC_db967.exe -Wl --out-implib libcmTC_db967.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\mingw64\\bin\\clang.exe  -v CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj -o cmTC_b68ea.exe -Wl --out-implib libcmTC_b68ea.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [(built by Brecht Sanders) clang version 14.0.4]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/mingw64/bin]
-        link line: [ "C:/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_db967.exe C:/mingw64/x86_64-w64-mingw32/lib/crt2.o C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -LC:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0 -LC:/mingw64/x86_64-w64-mingw32/lib -LC:/mingw64/lib -LC:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_db967.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o\x0d]
+        link line: [ "C:/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_b68ea.exe C:/mingw64/x86_64-w64-mingw32/lib/crt2.o C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -LC:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0 -LC:/mingw64/x86_64-w64-mingw32/lib -LC:/mingw64/lib -LC:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_b68ea.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o\x0d]
           arg [C:/mingw64/bin/ld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_db967.exe] ==> ignore
+          arg [cmTC_b68ea.exe] ==> ignore
           arg [C:/mingw64/x86_64-w64-mingw32/lib/crt2.o] ==> obj [C:/mingw64/x86_64-w64-mingw32/lib/crt2.o]
           arg [C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o] ==> obj [C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o]
           arg [-LC:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0] ==> dir [C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0]
           arg [-LC:/mingw64/x86_64-w64-mingw32/lib] ==> dir [C:/mingw64/x86_64-w64-mingw32/lib]
           arg [-LC:/mingw64/lib] ==> dir [C:/mingw64/lib]
           arg [-LC:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib] ==> dir [C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib]
-          arg [CMakeFiles/cmTC_db967.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_b68ea.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_db967.dll.a] ==> ignore
+          arg [libcmTC_b68ea.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -211,8 +211,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-ftfbk2"
-      binary: "C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-ftfbk2"
+      source: "C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-b3o4fa"
+      binary: "C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-b3o4fa"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/mingw64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -222,16 +222,16 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-ftfbk2'
+        Change Dir: 'C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-b3o4fa'
         
-        Run Build Command(s): C:/PROGRA~1/Meson/ninja.EXE -v cmTC_d2c24
-        [1/2] C:\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_d2c24.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): C:/PROGRA~1/Meson/ninja.EXE -v cmTC_8b32a
+        [1/2] C:\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_8b32a.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
         (built by Brecht Sanders) clang version 14.0.4
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/mingw64/bin
          (in-process)
-         "C:/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-ftfbk2 -resource-dir C:/mingw64/lib/clang/14.0.4 -dependency-file "CMakeFiles\\\\cmTC_d2c24.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/backward -internal-isystem C:/mingw64/include/c++/12.1.0 -internal-isystem C:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/mingw64/include/c++/12.1.0/backward -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++ -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/backward -internal-isystem C:/mingw64/lib/clang/14.0.4/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/mingw64/include -fdeprecated-macro -fdebug-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-ftfbk2 -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+         "C:/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-b3o4fa -resource-dir C:/mingw64/lib/clang/14.0.4 -dependency-file "CMakeFiles\\\\cmTC_8b32a.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/backward -internal-isystem C:/mingw64/include/c++/12.1.0 -internal-isystem C:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/mingw64/include/c++/12.1.0/backward -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++ -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/backward -internal-isystem C:/mingw64/lib/clang/14.0.4/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/mingw64/include -fdeprecated-macro -fdebug-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-b3o4fa -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
         clang -cc1 version 14.0.4 based upon LLVM 14.0.4 default target x86_64-w64-mingw32
         ignoring nonexistent directory "C:/mingw64/x86_64-w64-mingw32/include/c++"
         ignoring nonexistent directory "C:/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"
@@ -252,12 +252,12 @@ events:
          C:/mingw64/x86_64-w64-mingw32/include\x0d
          C:/mingw64/include\x0d
         End of search list.\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\mingw64\\bin\\clang++.exe  -v CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d2c24.exe -Wl,--out-implib,libcmTC_d2c24.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\mingw64\\bin\\clang++.exe  -v CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8b32a.exe -Wl,--out-implib,libcmTC_8b32a.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         (built by Brecht Sanders) clang version 14.0.4
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/mingw64/bin
-         "C:/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_d2c24.exe C:/mingw64/x86_64-w64-mingw32/lib/crt2.o C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -LC:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0 -LC:/mingw64/x86_64-w64-mingw32/lib -LC:/mingw64/lib -LC:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d2c24.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o\x0d
+         "C:/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_8b32a.exe C:/mingw64/x86_64-w64-mingw32/lib/crt2.o C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -LC:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0 -LC:/mingw64/x86_64-w64-mingw32/lib -LC:/mingw64/lib -LC:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_8b32a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o\x0d
         
       exitCode: 0
   -
@@ -295,16 +295,16 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.lld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-ftfbk2']
+        ignore line: [Change Dir: 'C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-b3o4fa']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/PROGRA~1/Meson/ninja.EXE -v cmTC_d2c24]
-        ignore line: [[1/2] C:\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_d2c24.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): C:/PROGRA~1/Meson/ninja.EXE -v cmTC_8b32a]
+        ignore line: [[1/2] C:\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_8b32a.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [(built by Brecht Sanders) clang version 14.0.4]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/mingw64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-ftfbk2 -resource-dir C:/mingw64/lib/clang/14.0.4 -dependency-file "CMakeFiles\\\\cmTC_d2c24.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/backward -internal-isystem C:/mingw64/include/c++/12.1.0 -internal-isystem C:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/mingw64/include/c++/12.1.0/backward -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++ -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/backward -internal-isystem C:/mingw64/lib/clang/14.0.4/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/mingw64/include -fdeprecated-macro -fdebug-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-ftfbk2 -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [ "C:/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-b3o4fa -resource-dir C:/mingw64/lib/clang/14.0.4 -dependency-file "CMakeFiles\\\\cmTC_8b32a.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/backward -internal-isystem C:/mingw64/include/c++/12.1.0 -internal-isystem C:/mingw64/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/mingw64/include/c++/12.1.0/backward -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++ -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/backward -internal-isystem C:/mingw64/lib/clang/14.0.4/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/mingw64/include -fdeprecated-macro -fdebug-compilation-dir=C:/C++/neurolib/build/CMakeFiles/CMakeScratch/TryCompile-b3o4fa -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [clang -cc1 version 14.0.4 based upon LLVM 14.0.4 default target x86_64-w64-mingw32]
         ignore line: [ignoring nonexistent directory "C:/mingw64/x86_64-w64-mingw32/include/c++"]
         ignore line: [ignoring nonexistent directory "C:/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"]
@@ -325,27 +325,27 @@ events:
         ignore line: [ C:/mingw64/x86_64-w64-mingw32/include\x0d]
         ignore line: [ C:/mingw64/include\x0d]
         ignore line: [End of search list.\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\mingw64\\bin\\clang++.exe  -v CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d2c24.exe -Wl --out-implib libcmTC_d2c24.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\mingw64\\bin\\clang++.exe  -v CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8b32a.exe -Wl --out-implib libcmTC_8b32a.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [(built by Brecht Sanders) clang version 14.0.4]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/mingw64/bin]
-        link line: [ "C:/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_d2c24.exe C:/mingw64/x86_64-w64-mingw32/lib/crt2.o C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -LC:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0 -LC:/mingw64/x86_64-w64-mingw32/lib -LC:/mingw64/lib -LC:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d2c24.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o\x0d]
+        link line: [ "C:/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_8b32a.exe C:/mingw64/x86_64-w64-mingw32/lib/crt2.o C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -LC:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0 -LC:/mingw64/x86_64-w64-mingw32/lib -LC:/mingw64/lib -LC:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_8b32a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o\x0d]
           arg [C:/mingw64/bin/ld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_d2c24.exe] ==> ignore
+          arg [cmTC_8b32a.exe] ==> ignore
           arg [C:/mingw64/x86_64-w64-mingw32/lib/crt2.o] ==> obj [C:/mingw64/x86_64-w64-mingw32/lib/crt2.o]
           arg [C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o] ==> obj [C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o]
           arg [-LC:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0] ==> dir [C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0]
           arg [-LC:/mingw64/x86_64-w64-mingw32/lib] ==> dir [C:/mingw64/x86_64-w64-mingw32/lib]
           arg [-LC:/mingw64/lib] ==> dir [C:/mingw64/lib]
           arg [-LC:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib] ==> dir [C:/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib]
-          arg [CMakeFiles/cmTC_d2c24.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_8b32a.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_d2c24.dll.a] ==> ignore
+          arg [libcmTC_8b32a.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
